@@ -1,0 +1,12 @@
+public class Java15LocalClass {
+	public static void main(String[] args) {
+
+		class LocalClass {
+			public void show(int s) {
+				System.out.println(s);
+			}
+		}
+		var x = new LocalClass();
+		x.show(1510);
+	}
+}
